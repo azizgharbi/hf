@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 const NeumorphicCard = styled.div`
 font-size: 24px;
 
