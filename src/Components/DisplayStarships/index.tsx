@@ -39,6 +39,7 @@ const DisplayStarships: React.FC = () => {
 			) : (
 				<GridContainer>
 					{starships.map((starship, index) => (
+						// rome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						<DisplayStarship starship={starship} key={index} />
 					))}
 				</GridContainer>
