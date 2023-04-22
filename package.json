@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "format": "yarn rome format . --write"
+    "format": "yarn rome format . --write",
+    "check": "yarn rome check ./ --apply"
   },
   "eslintConfig": {
     "extends": [
