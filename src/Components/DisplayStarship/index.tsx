@@ -31,6 +31,7 @@ const DisplayStarship = (props: DisplayStarshipProps) => {
 					<div className="flip-card-back">
 						{starship.pilots.length > 0 ? (
 							<>
+								{/* rome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 								<div
 									className="card-button"
 									onClick={() => {
@@ -42,6 +43,7 @@ const DisplayStarship = (props: DisplayStarshipProps) => {
 								{showPilots ? (
 									<>
 										{starship.pilots.map((link: string, index: number) => {
+											// rome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 											return <DisplayPilot link={link} key={index} />;
 										})}
 										<CongratsText text="Congrats" />
