@@ -9,7 +9,7 @@
 - `Unit tests` `client-side tests`.
 - `Centralized SCSS variables`.
 - `Reducer, Context.api: Basically, I don't see the reason of adding complexity of state managment`.
-- 'CI/CD' on `github Workflow`.
+- `CI/CD` on `github Workflow`.
 #### demo
 
 ![demo](demo/demo.png)
