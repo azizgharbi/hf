@@ -4,7 +4,7 @@
 - `yarn start`.
 
 - I am using `rome.js` for `linting` and `formatting`.
-- `husky` for `pre-commit` `hooks`.
+- `husky` for `pre-commit` `git hooks`.
 #### nice to have:
 - `Unit tests`.
 - `Centralized SCSS variables`.
