@@ -1,20 +1,12 @@
 import styled from "styled-components";
 
-interface NeumorphicCardProps {
-	width?: string;
-	height?: string;
-	borderRadius?: string;
-	bgColor?: string;
-	lightShadowColor?: string;
-	darkShadowColor?: string;
-}
 
-const NeumorphicCard = styled.div<NeumorphicCardProps>`
+const NeumorphicCard = styled.div`
 font-size: 24px;
 
 .flip-card {
-  width: ${({ width }) => width || "250px"};
-  height: ${({ height }) => height || "250px"};
+  width: 250px;
+  height: 250px;
   margin: 15px;
   font-weight: bold;
   display: flex;
@@ -54,10 +46,7 @@ font-size: 24px;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: ${({ borderRadius }) => borderRadius || "10px"};
-  box-shadow: ${({ lightShadowColor, darkShadowColor }) =>
-		`${lightShadowColor || "rgba(255, 255, 255, 0.7)"} -6px -6px 15px,
-     ${darkShadowColor || "rgba(0, 0, 0, 0.3)"} 6px 6px 15px`};
+  border-radius: 10px;
 }
 
 .flip-card-front {
