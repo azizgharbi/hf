@@ -1,0 +1,15 @@
+body{
+  background-color: #83716221;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.pilot-name{
+  font-size: 14px;
+  color: #8f4385
+}
+
+.error-text{
+  font-size: 14px;
+  color: #8f4385;
+  margin-top: 14px
+}
