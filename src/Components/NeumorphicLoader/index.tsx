@@ -12,9 +12,9 @@ const stretchDelay = keyframes`
 `;
 
 interface NeumorphicLoaderProps {
-  bgColor?: string;
-  lightShadowColor?: string;
-  darkShadowColor?: string;
+	bgColor?: string;
+	lightShadowColor?: string;
+	darkShadowColor?: string;
 }
 
 const NeumorphicLoaderWrapper = styled.div<NeumorphicLoaderProps>`
@@ -34,13 +34,13 @@ const Line = styled.div`
 `;
 
 const NeumorphicLoader: React.FC<NeumorphicLoaderProps> = (props) => {
-  return (
-    <NeumorphicLoaderWrapper {...props}>
-      <Line style={{ animationDelay: "-1.1s" }} />
-      <Line style={{ animationDelay: "-1.0s" }} />
-      <Line style={{ animationDelay: "-0.9s" }} />
-    </NeumorphicLoaderWrapper>
-  );
+	return (
+		<NeumorphicLoaderWrapper {...props}>
+			<Line style={{ animationDelay: "-1.1s" }} />
+			<Line style={{ animationDelay: "-1.0s" }} />
+			<Line style={{ animationDelay: "-0.9s" }} />
+		</NeumorphicLoaderWrapper>
+	);
 };
 
 export default NeumorphicLoader;
